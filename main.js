@@ -32,31 +32,31 @@ if(scoreRightWrist >0.2)
 {
     circle(rightWristX, rightWristY,20);
 
-    if(rightWristY >0 && mrightWristY <=100)
+    if(rightWristY >0 && rightWristY <=100)
     {
         document.getElementById("speed").innerHTML = "Velocidad = 0.5x";
         song.rate(0.5);
     }
 
-   else if(rightWristY >100 && mrightWristY <=200)
+   else if(rightWristY >100 && rightWristY <=200)
         {
             document.getElementById("speed").innerHTML = "Velocidad = 1x";
             song.rate(1);
         }
 
-        else if(rightWristY >200 && mrightWristY <=300)
+        else if(rightWristY >200 && rightWristY <=300)
             {
                 document.getElementById("speed").innerHTML = "Velocidad = 1.5x";
                 song.rate(1.5);
             }
 
-            else if(rightWristY >300 && mrightWristY <=400)
+            else if(rightWristY >300 && rightWristY <=400)
                 {
                     document.getElementById("speed").innerHTML = "Velocidad = 2x";
                     song.rate(2);
                 }
 
-                else if(rightWristY >400 && mrightWristY <=500)
+                else if(rightWristY >400 && rightWristY <=500)
                     {
                         document.getElementById("speed").innerHTML = "Velocidad = 2.5x";
                         song.rate(2.5);
